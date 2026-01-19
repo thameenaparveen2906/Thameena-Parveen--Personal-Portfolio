@@ -24,10 +24,18 @@ const Hero = () => {
                         I build robust backend systems, scalable web applications, and efficient software solutions.
                     </p>
 
-                    <div className="flex flex-wrap gap-4">
+                     <div className="flex flex-wrap gap-4">
+                        <a
+                            href="https://drive.google.com/file/d/1TOmPEWmYFN6I-6raZkke0ye8t2-BzQuX/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3 bg-accent text-white font-medium rounded-full hover:bg-accent-light transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+                        >
+                            View Resume
+                        </a>
                         <a
                             href="#projects"
-                            className="px-8 py-3 bg-accent text-white font-medium rounded-full hover:bg-accent-light transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+                            className="px-8 py-3 border-2 border-accent text-accent font-medium rounded-full hover:bg-accent hover:text-white transition-all"
                         >
                             View Projects
                         </a>
