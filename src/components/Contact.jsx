@@ -57,7 +57,7 @@ const Contact = () => {
                                     <input
                                         type="text"
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
-                                        placeholder="John Doe"
+                                        placeholder="Your Name"
                                     />
                                 </div>
                                 <div>
@@ -65,7 +65,7 @@ const Contact = () => {
                                     <input
                                         type="email"
                                         className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
-                                        placeholder="john@example.com"
+                                        placeholder="Your Email"
                                     />
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                                 <input
                                     type="text"
                                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
-                                    placeholder="Project Inquiry"
+                                    placeholder="Subject line"
                                 />
                             </div>
                             <div>
@@ -82,7 +82,7 @@ const Contact = () => {
                                 <textarea
                                     rows="4"
                                     className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
-                                    placeholder="Tell me about your project..."
+                                    placeholder="Your message"
                                 ></textarea>
                             </div>
 
