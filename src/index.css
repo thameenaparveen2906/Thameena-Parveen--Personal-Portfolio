@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F5F5F0;
+  --color-secondary: #1A1A1A;
+  --color-accent: #2D5A27;
+  --color-accent-light: #4A7A42;
+  --color-surface: #FFFFFF;
+  --font-sans: "Outfit", "Inter", sans-serif;
+}
+
+/* Global styles */
+:root {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+/* Custom premium utilities using standard CSS or @apply if it works, 
+   but in v4 clean CSS is often preferred or simple classes. 
+   We can still use @apply in standard CSS blocks if we want, 
+   or just define classes. */
+
+.glass-effect {
+  @apply backdrop-blur-md bg-white/30 border border-white/20 shadow-lg;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--color-secondary), var(--color-accent));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--color-accent) 50%, transparent);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-accent);
+}
