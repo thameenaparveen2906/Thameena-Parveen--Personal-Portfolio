@@ -28,7 +28,7 @@ const Experience = () => {
         {
             role: 'Jr Python Intern',
             company: 'Knovista Technologies',
-            duration: 'October 2025 - January 2025',
+            duration: 'October 2025 - January 2026',
             descriptions: [
                 'Developed full-stack web solutions with Python, React.js, and Django REST APIs.',
                 'Implemented database integrations, authentication, and backend services to streamline operations.',
