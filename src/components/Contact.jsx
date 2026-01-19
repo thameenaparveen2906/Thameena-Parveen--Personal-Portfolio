@@ -118,7 +118,7 @@ const Contact = () => {
                                 <textarea
                                     rows="4"
                                     name="entry.711495481"
-                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
+                                    className="w-full px-4 py-3 rounded-lg border border-gray-200 resize-none focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-colors bg-primary"
                                     placeholder="Your Message"
                                     required
                                 ></textarea>
