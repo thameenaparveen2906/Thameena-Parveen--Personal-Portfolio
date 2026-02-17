@@ -76,6 +76,45 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                       {/* Professional Certificate */}
+<div className="bg-primary p-6 rounded-xl shadow-sm">
+    <h3 className="font-bold text-2xl mb-4 text-secondary">
+        Professional Certificate
+    </h3>
+
+    <div className="mb-4">
+        <div className="flex justify-between items-start">
+            <h4 className="font-semibold text-lg">
+                Microsoft Back-End Developer Specialization
+            </h4>
+            <a 
+                href="https://www.coursera.org/account/accomplishments/specialization/Y46GMYAEDDIY"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-accent font-medium"
+            >
+                Credential
+            </a>
+        </div>
+    </div>
+
+    <div className="mb-4">
+        <div className="flex justify-between items-start">
+            <h4 className="font-semibold text-lg">
+                Generative AI for Software Development Specialization
+            </h4>
+            <a 
+                href="https://www.coursera.org/account/accomplishments/specialization/2T8YNZEB0UPT"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-accent font-medium"
+            >
+                Credential
+            </a>
+        </div>
+    </div>
+</div>
+
                     </motion.div>
                 </div>
             </div>
