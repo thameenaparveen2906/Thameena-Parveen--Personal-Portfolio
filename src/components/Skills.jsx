@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaNodeJs, FaDatabase, FaRobot, FaMobileAlt, FaServer, FaGithub } from 'react-icons/fa';
-import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb, SiCsharp, SiDotnet } from 'react-icons/si';
+import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { SiCsharp, SiDotnet } from 'react-icons/si';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
     <motion.div
