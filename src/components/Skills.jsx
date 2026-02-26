@@ -19,7 +19,6 @@ const Skills = () => {
         { name: 'Django', icon: SiDjango, color: '#092E20' },
         { name: 'React.js', icon: FaReact, color: '#61DAFB' },
         { name: 'C#', icon: SiCsharp, color: '#239120' },
-        { name: '.NET', icon: SiDotnet, color: '#512BD4' },
         { name: 'ASP.NET', icon: SiDotnet, color: '#5C2D91' },
         { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
