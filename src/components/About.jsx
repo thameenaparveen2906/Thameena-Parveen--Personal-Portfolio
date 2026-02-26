@@ -25,7 +25,7 @@ const About = () => {
                     >
                         <div className="prose prose-lg text-gray-600">
                             <p className="mb-6">
-                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Full Stack Development</strong> and the <strong>.NET ecosystem</strong>.
+                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Python Full Stack Development</strong> and the <strong>.NET ecosystem</strong>.
                                 My journey involves building scalable web applications using <strong>Django, C#, ASP.NET, REST APIs and React.js</strong>, and integrating cutting-edge <strong>AI & Automation</strong> solutions.
                             </p>
                             <p className="mb-6">
@@ -85,10 +85,10 @@ const About = () => {
     <div className="mb-4">
         <div className="flex justify-between items-start">
             <h4 className="font-semibold text-lg">
-                Microsoft Back-End Developer Specialization
+                Microsoft Full-Stack Developer Specialization
             </h4>
             <a 
-                href="https://www.coursera.org/account/accomplishments/specialization/Y46GMYAEDDIY"
+                href="https://www.coursera.org/account/accomplishments/specialization/MNLM3N3GGB4N"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-accent font-medium"
