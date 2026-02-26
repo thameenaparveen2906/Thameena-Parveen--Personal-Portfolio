@@ -25,8 +25,8 @@ const About = () => {
                     >
                         <div className="prose prose-lg text-gray-600">
                             <p className="mb-6">
-                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Python Full Stack Development</strong>.
-                                My journey involves building scalable web applications using <strong>Django, REST APIs and React.js</strong>, and integrating cutting-edge <strong>AI & Automation</strong> solutions.
+                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Full Stack Development</strong> and the <strong>.NET ecosystem</strong>.
+                                My journey involves building scalable web applications using <strong>Django, C#, ASP.NET, REST APIs and React.js</strong>, and integrating cutting-edge <strong>AI & Automation</strong> solutions.
                             </p>
                             <p className="mb-6">
                                 I love exploring new technologies and solving complex problems.
