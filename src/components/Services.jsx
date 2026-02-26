@@ -22,7 +22,7 @@ const Services = () => {
         {
             icon: FaCode,
             title: 'Full Stack Development',
-            description: 'Building end-to-end web applications with modern frontend frameworks (React) and robust backends (Django/REST API).'
+            description: 'Building end-to-end web applications with modern frontend frameworks (React) and robust backends (Django/ASP.NET/REST API).'
         },
         {
             icon: FaBrain,
