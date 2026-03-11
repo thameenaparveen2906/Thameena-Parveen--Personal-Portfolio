@@ -20,8 +20,7 @@ const Hero = () => {
                         <span className="text-accent">Thameena Parveen</span>
                     </h1>
                     <p className="text-xl text-gray-600 mb-8 max-w-lg leading-relaxed">
-                        Full-Stack Developer skilled in Python, Django and AI Automation.
-                        I build robust backend systems, scalable web applications, and efficient software solutions.
+                        Full-Stack Developer skilled in Python, Django, and AI automation. I build robust backend systems, scalable web applications, and efficient software solutions.
                     </p>
 
                      <div className="flex flex-wrap gap-4">
