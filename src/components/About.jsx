@@ -25,17 +25,15 @@ const About = () => {
                     >
                         <div className="prose prose-lg text-gray-600">
                             <p className="mb-6">
-                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Python Full Stack Development</strong>.
-                                My journey involves building scalable web applications using <strong>Django, REST APIs and React.js</strong>, and integrating cutting-edge <strong>AI & Automation</strong> solutions.
+                                I am a passionate <strong>Software Engineer</strong> with strong expertise in <strong>Python full-stack development</strong>.
+                                My journey involves building scalable web applications using <strong>Django, REST APIs, and React.js</strong>, and integrating cutting-edge <strong>AI and Automation</strong> solutions.
                             </p>
                             <p className="mb-6">
-                                I love exploring new technologies and solving complex problems.
-                                With a background in both backend architecture and frontend interactivity,
-                                I strive to create seamless user experiences that are powered by robust intelligent systems.
+                                I love exploring new technologies and solving complex problems. With a background in both backend architecture and frontend interactivity, I strive to create seamless user experiences powered by robust, intelligent systems.
+
                             </p>
                             <p>
-                                When I'm not coding, I'm researching the latest in GenAI, exploring GitHub for inspiration (check out my contributions!),
-                                or working on unique projects like AI-assisted Marketplaces and AR apps.
+                                When I'm not coding, I enjoy researching the latest developments in GenAI, exploring GitHub for inspiration (check out my contributions!), and working on unique projects like AI-assisted marketplaces and AR applications.
                             </p>
                         </div>
                     </motion.div>
