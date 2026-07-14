@@ -111,6 +111,21 @@ const About = () => {
             </a>
         </div>
     </div>
+     <div className="mb-4">
+        <div className="flex justify-between items-start">
+            <h4 className="font-semibold text-lg">
+                Prompt Engineering Professional Certification 
+            </h4>
+            <a 
+                href="https://edu.gtf.pt/pluginfile.php/1/tool_certificate/issues/1722782499/6793937206TP.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-accent font-medium"
+            >
+                Credential
+            </a>
+        </div>
+    </div>
 </div>
 
                     </motion.div>
