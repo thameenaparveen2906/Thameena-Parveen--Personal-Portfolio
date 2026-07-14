@@ -25,14 +25,45 @@ const ExperienceItem = ({ role, company, duration, descriptions }) => (
 
 const Experience = () => {
     const experiences = [
+         {
+            role: 'Operations Executive',
+            company: 'AImploy',
+            duration: 'May 2026 - Present',
+            descriptions: [
+                'Contributed to technical documentation and performed QA testing on platform workflows for an AI-powered HR tech platform, identifying assessment flow issues that improved the overall candidate experience',
+                'Sourced 50+ candidates across HR, Finance, Marketing, Tech, and Design roles; screened and shortlisted profiles achieving a 30–40% conversion rate to interview stage',
+                'Built a centralized hiring dashboard with role-wise, client-wise, and status-based tracking and  implemented a bi-daily reporting system that gave leadership real-time visibility into pipeline progress and blockers'
+            ]
+        },
+        {
+            role: 'AI Data Associate',
+            company: 'SoftAge Information Technology Ltd.',
+            duration: 'May 2026 - July 2026',
+            descriptions: [
+                'Collected and submitted structured image datasets for AI and computer vision model training projects',
+                'Maintained data quality, consistency, and accuracy across large-scale annotation workflows following strict project guidelines',
+                'Contributed to dataset preparation and validation pipelines, supporting timely delivery of training data to model teams'
+            ]
+        },
+        {
+            role: 'Freelance Full Stack Developer',
+            company: 'Self-Employed',
+            duration: 'February 2026 - Present',
+            descriptions: [
+                'Currently building an online jewellery store — product catalogue, cart, secure checkout, and admin dashboard — using Django and React.js',
+                'Developing a psychology consultation platform with appointment booking, therapist profiles, session management, and secure client communication',
+                'Handling end-to-end delivery for both projects: requirements, UI/UX, backend APIs, database design, authentication, and deployment',
+                'Working directly with clients to translate business needs into functional products, managing timelines and feedback independently'
+            ]
+        },
         {
             role: 'Jr Python Intern',
             company: 'Knovista Technologies',
             duration: 'October 2025 - January 2026',
             descriptions: [
-                'Developed full-stack web solutions with Python, React.js, and Django REST APIs.',
-                'Implemented database integrations, authentication, and backend services to streamline operations.',
-                'Improved coding proficiency through real-world feature development and collaborative projects.'
+                'Developed full-stack web solutions with Python, React.js, and Django REST APIs',
+                'Implemented database integrations, authentication, and backend services to streamline operations',
+                'Improved coding proficiency through real-world feature development and collaborative projects'
             ]
         },
         {
@@ -40,9 +71,9 @@ const Experience = () => {
             company: 'Talrop',
             duration: 'June 2025 - September 2025',
             descriptions: [
-                'Managed backend operations for 5+ startup teams, coordinating 100+ tasks in operations and development.',
-                'Collaborated cross-functionally using Jira and Slack to ensure timely project delivery.',
-                'Created workflows, weekly sprints, and progress reports, improving task completion and team efficiency.'
+                'Managed backend operations for 5+ startup teams, coordinating 100+ tasks in operations and development',
+                'Collaborated cross-functionally using Jira and Slack to ensure timely project delivery',
+                'Created workflows, weekly sprints, and progress reports, improving task completion and team efficiency'
             ]
         },
         {
@@ -50,9 +81,9 @@ const Experience = () => {
             company: 'Talrop',
             duration: 'February 2025 - May 2025',
             descriptions: [
-                'Led requirement flows and follow-ups for 5+ startups, ensuring proactive execution of deliverables.',
-                'Supported 300+ students in Junior Innovators Program through structured operations and research.',
-                'Conducted weekly scrums, reports, and competitor analyses to enhance decision-making.'
+                'Led requirement flows and follow-ups for 5+ startups, ensuring proactive execution of deliverables',
+                'Supported 300+ students in Junior Innovators Program through structured operations and research',
+                'Conducted weekly scrums, reports, and competitor analyses to enhance decision-making'
             ]
         }
     ];
