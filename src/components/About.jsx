@@ -50,10 +50,29 @@ const About = () => {
                             <h3 className="font-bold text-2xl mb-4 text-secondary">Education</h3>
                             <div className="mb-4">
                                 <div className="flex justify-between items-start">
-                                    <h4 className="font-semibold text-lg">B.Tech in Computer Science and Engineering</h4>
+                                    <h4 className="font-semibold text-lg">B.Tech — Computer Science & Engineering</h4>
                                     <span className="text-sm text-accent font-medium">2021-2025</span>
                                 </div>
                                 <p className="text-gray-600">College of Engineering Vadakara</p>
+                                <p className="text-gray-600">APJ Abdul Kalam Technological University, Kerala, India</p>
+                                <p className="text-sm text-gray-500">CGPA: 8.28</p>
+                            </div>
+                            <div className="mb-4">
+                                <div className="flex justify-between items-start">
+                                    <h4 className="font-semibold text-lg">Higher Secondary — Computer Science</h4>
+                                    <span className="text-sm text-accent font-medium">2019-2021</span>
+                                </div>
+                                <p className="text-gray-600">GGHSS Madappally</p>
+                                <p className="text-gray-600">Board of Higher Secondary Education, Kerala, India</p>
+                                <p className="text-sm text-gray-500">CGPA: 8.28</p>
+                            </div>
+                             <div className="mb-4">
+                                <div className="flex justify-between items-start">
+                                    <h4 className="font-semibold text-lg">Class 10</h4>
+                                    <span className="text-sm text-accent font-medium">2018-2019</span>
+                                </div>
+                                <p className="text-gray-600">SMI English Medium School</p>
+                                <p className="text-gray-600">Central Board of Secondary Education, Kerala, India</p>
                                 <p className="text-sm text-gray-500">CGPA: 8.28</p>
                             </div>
                         </div>
