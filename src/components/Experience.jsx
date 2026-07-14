@@ -61,31 +61,22 @@ const Experience = () => {
             company: 'Knovista Technologies',
             duration: 'October 2025 - January 2026',
             descriptions: [
-                'Developed full-stack web solutions with Python, React.js, and Django REST APIs',
-                'Implemented database integrations, authentication, and backend services to streamline operations',
-                'Improved coding proficiency through real-world feature development and collaborative projects'
+                'Built the AI Interview Platform — an end-to-end tool for automated question generation, candidate evaluation, and scoring using OpenAI and Google Gemini AI',
+                'Built full-stack features using Python, React.js, and Django REST APIs — including database integrations, authentication flows, and backend services',
+                'Collaborated in a real product environment, contributing to features that went live in production within a 4-month internship'
             ]
         },
         {
             role: 'Associate Program Executive',
             company: 'Talrop',
-            duration: 'June 2025 - September 2025',
+            duration: 'February 2025 - September 2025',
             descriptions: [
-                'Managed backend operations for 5+ startup teams, coordinating 100+ tasks in operations and development',
-                'Collaborated cross-functionally using Jira and Slack to ensure timely project delivery',
-                'Created workflows, weekly sprints, and progress reports, improving task completion and team efficiency'
+                'Managed end-to-end operations for 5+ startup teams — tracking 100+ concurrent tasks in development, business, and research',
+                'Handled requirements documentation and stakeholder follow-ups for 5+ concurrent projects, keeping deliverables on track and reducing communication gaps between teams',
+                'Supported 300+ students in the Junior Innovators Program by structuring operations, coordinating research activities, and ensuring consistent delivery of program milestones',
+                'Ran weekly scrums and authored competitor analyses and progress reports that improved project execution accuracy and gave leadership clearer visibility into blockers'
             ]
         },
-        {
-            role: 'Program Executive Intern',
-            company: 'Talrop',
-            duration: 'February 2025 - May 2025',
-            descriptions: [
-                'Led requirement flows and follow-ups for 5+ startups, ensuring proactive execution of deliverables',
-                'Supported 300+ students in Junior Innovators Program through structured operations and research',
-                'Conducted weekly scrums, reports, and competitor analyses to enhance decision-making'
-            ]
-        }
     ];
 
     return (
