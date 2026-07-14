@@ -64,7 +64,7 @@ const About = () => {
                                 </div>
                                 <p className="text-gray-600">GGHSS Madappally</p>
                                 <p className="text-gray-600">Board of Higher Secondary Education, Kerala, India</p>
-                                <p className="text-sm text-gray-500">CGPA: 8.28</p>
+                                <p className="text-sm text-gray-500">Percentage: 96.66</p>
                             </div>
                              <div className="mb-4">
                                 <div className="flex justify-between items-start">
@@ -73,7 +73,7 @@ const About = () => {
                                 </div>
                                 <p className="text-gray-600">SMI English Medium School</p>
                                 <p className="text-gray-600">Central Board of Secondary Education, Kerala, India</p>
-                                <p className="text-sm text-gray-500">CGPA: 8.28</p>
+                                <p className="text-sm text-gray-500">Percentage: 86.4</p>
                             </div>
                         </div>
 
