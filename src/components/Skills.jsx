@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaNodeJs, FaDatabase, FaRobot, FaMobileAlt, FaServer, FaGithub } from 'react-icons/fa';
 import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { TbApi, TbBulb } from 'react-icons/tb';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
     <motion.div
@@ -19,6 +20,7 @@ const Skills = () => {
         { name: 'Django', icon: SiDjango, color: '#092E20' },
         { name: 'React.js', icon: FaReact, color: '#61DAFB' },
         { name: 'JavaScript', icon: FaJs, color: '#F7DF1E' },
+        { name: 'REST APIs', icon: TbApi, color: '#009688' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
         { name: 'MySQL', icon: FaDatabase, color: '#4479A1' },
         { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
