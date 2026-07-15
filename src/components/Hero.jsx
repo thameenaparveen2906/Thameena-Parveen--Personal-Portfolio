@@ -25,7 +25,7 @@ const Hero = () => {
 
                      <div className="flex flex-wrap gap-4">
                         <a
-                            href="https://drive.google.com/file/d/1A8nCzzpnkd2mLGKxLa6gvF9cvHxxYW9S/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1_snYBbCpMKsk9fe3RucwoPCTXmtkeQhQ/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-8 py-3 bg-accent text-white font-medium rounded-full hover:bg-accent-light transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
