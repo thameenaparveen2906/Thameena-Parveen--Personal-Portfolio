@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks } from 'react-icons/fa';
-import { SiDjango, SiPostgresql, SiSqlite, SiOpenai, SiGooglegemini, SiJira, SiPostman, SiVercel, SiRender, SiAmazonaws, SiVisualstudiocode, SiNotion } from 'react-icons/si';
-import { TbApi, TbBulb } from 'react-icons/tb';
+import { SiDjango, SiPostgresql, SiSqlite, SiGooglegemini, SiJira, SiOpenai, SiPostman, SiVercel, SiRender, SiNotion } from 'react-icons/si';
+import { TbApi, TbBulb, TbBrandAws, TbBrandVscode } from 'react-icons/tb';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
     <motion.div
@@ -38,8 +38,8 @@ const Skills = () => {
         { name: 'Docker', icon: FaServer, color: '#2496ED' },
         { name: 'Vercel', icon: SiVercel, color: '#000000' },
         { name: 'Render', icon: SiRender, color: '#46E3B7' },
-        { name: 'AWS', icon: SiAmazonaws, color: '#FF9900' },
-        { name: 'VS Code', icon: SiVisualstudiocode, color: '#007ACC' },
+        { name: 'AWS', icon: TbBrandAws, color: '#FF9900' },
+        { name: 'VS Code', icon: TbBrandVscode, color: '#007ACC' },
         { name: 'Slack', icon: FaSlack, color: '#4A154B' },
         { name: 'Notion', icon: SiNotion, color: '#000000' },
         { name: 'Technical Documentation', icon: FaFileAlt, color: '#4A5568' },
