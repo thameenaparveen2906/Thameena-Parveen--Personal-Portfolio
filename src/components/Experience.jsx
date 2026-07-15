@@ -31,7 +31,7 @@ const Experience = () => {
             duration: 'May 2026 - Present',
             descriptions: [
                 'Wrote technical documentation (user flows, feature specs, system architecture) for a University Admissions Intelligence Platform, turning business requirements into build-ready specs.',
-                'Set up and tested the company's internal HRMS platform, finding and fixing workflow issues.',
+                'Set up and tested the internal HRMS platform, finding and fixing workflow issues.',
                 'Built a hiring dashboard to track candidates by role, client, and status for real-time pipeline visibility.',
                 'Tested core workflows on the AI-powered HR platform, documenting bugs to improve stability and user experience.'
             ]
