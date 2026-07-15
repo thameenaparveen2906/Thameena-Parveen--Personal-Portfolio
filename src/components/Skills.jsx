@@ -1,7 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaNodeJs, FaDatabase, FaRobot, FaMobileAlt, FaServer, FaGithub } from 'react-icons/fa';
-import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb, SiSqlite, SiOpenai, SiGooglegemini } from 'react-icons/si';
+import {
+    FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot,
+    FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks
+} from 'react-icons/fa';
+import {
+    SiDjango, SiPostgresql, SiSqlite, SiOpenai, SiGooglegemini,
+    SiJira, SiPostman, SiVercel, SiRender, SiAmazonaws, SiVisualstudiocode, SiNotion
+} from 'react-icons/si';
 import { TbApi, TbBulb } from 'react-icons/tb';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
@@ -27,12 +33,22 @@ const Skills = () => {
         { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
         { name: 'CSS3', icon: FaCss3, color: '#1572B6' },
         { name: 'Bootstrap', icon: FaCss3, color: '#7952B3' },
-        { name: 'Docker', icon: FaServer, color: '#2496ED' },
         { name: 'OpenAI API', icon: SiOpenai, color: '#412991' },
         { name: 'Google Gemini AI', icon: SiGooglegemini, color: '#8E75B2' },
         { name: 'AI/LLM', icon: FaRobot, color: '#2D5A27' },
         { name: 'Prompt Engineering', icon: TbBulb, color: '#F5A623' },
-        { name: 'Git', icon: FaGithub, color: '#F05032' },
+        { name: 'Git', icon: FaGitAlt, color: '#F05032' },
+        { name: 'GitHub', icon: FaGithub, color: '#181717' },
+        { name: 'Jira', icon: SiJira, color: '#0052CC' },
+        { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
+        { name: 'Docker', icon: FaServer, color: '#2496ED' },
+        { name: 'Vercel', icon: SiVercel, color: '#000000' },
+        { name: 'Render', icon: SiRender, color: '#46E3B7' },
+        { name: 'AWS', icon: SiAmazonaws, color: '#FF9900' },
+        { name: 'VS Code', icon: SiVisualstudiocode, color: '#007ACC' },
+        { name: 'Slack', icon: FaSlack, color: '#4A154B' },
+        { name: 'Notion', icon: SiNotion, color: '#000000' },
+
     ];
 
     return (
