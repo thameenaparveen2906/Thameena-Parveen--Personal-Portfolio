@@ -1,13 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {
-    FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot,
-    FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks
-} from 'react-icons/fa';
-import {
-    SiDjango, SiPostgresql, SiSqlite, SiOpenai, SiGooglegemini,
-    SiJira, SiPostman, SiVercel, SiRender, SiAmazonaws, SiVisualstudiocode, SiNotion
-} from 'react-icons/si';
+import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks } from 'react-icons/fa';
+import { SiDjango, SiPostgresql, SiSqlite, SiOpenai, SiGooglegemini, SiJira, SiPostman, SiVercel, SiRender, SiAmazonaws, SiVisualstudiocode, SiNotion } from 'react-icons/si';
 import { TbApi, TbBulb } from 'react-icons/tb';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
@@ -48,6 +42,10 @@ const Skills = () => {
         { name: 'VS Code', icon: SiVisualstudiocode, color: '#007ACC' },
         { name: 'Slack', icon: FaSlack, color: '#4A154B' },
         { name: 'Notion', icon: SiNotion, color: '#000000' },
+        { name: 'Technical Documentation', icon: FaFileAlt, color: '#4A5568' },
+        { name: 'QA Testing', icon: FaBug, color: '#D53F8C' },
+        { name: 'Agile/Scrum', icon: FaSyncAlt, color: '#3182CE' },
+        { name: 'Project Coordination', icon: FaTasks, color: '#38A169' },
 
     ];
 
