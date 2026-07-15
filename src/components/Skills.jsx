@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaNodeJs, FaDatabase, FaRobot, FaMobileAlt, FaServer, FaGithub } from 'react-icons/fa';
-import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { SiDjango, SiTypescript, SiTailwindcss, SiFlutter, SiPostgresql, SiMongodb, SiSqlite, SiOpenai, SiGooglegemini } from 'react-icons/si';
 import { TbApi, TbBulb } from 'react-icons/tb';
 
 const SkillCard = ({ name, icon: Icon, color }) => (
@@ -23,11 +23,15 @@ const Skills = () => {
         { name: 'REST APIs', icon: TbApi, color: '#009688' },
         { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
         { name: 'MySQL', icon: FaDatabase, color: '#4479A1' },
+        { name: 'SQLite', icon: SiSqlite, color: '#003B57' },
         { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
         { name: 'CSS3', icon: FaCss3, color: '#1572B6' },
         { name: 'Bootstrap', icon: FaCss3, color: '#7952B3' },
         { name: 'Docker', icon: FaServer, color: '#2496ED' },
+        { name: 'OpenAI API', icon: SiOpenai, color: '#412991' },
+        { name: 'Google Gemini AI', icon: SiGooglegemini, color: '#8E75B2' },
         { name: 'AI/LLM', icon: FaRobot, color: '#2D5A27' },
+        { name: 'Prompt Engineering', icon: TbBulb, color: '#F5A623' },
         { name: 'Git', icon: FaGithub, color: '#F05032' },
     ];
 
