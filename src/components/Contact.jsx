@@ -67,7 +67,7 @@ const Contact = () => {
                                     <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
                                         <FaPhoneAlt className="text-accent" />
                                     </div>
-                                    <span>+971-505286068</span>
+                                    <span>+971-554856364</span>
                                 </div>
                             </div>
                         </div>
