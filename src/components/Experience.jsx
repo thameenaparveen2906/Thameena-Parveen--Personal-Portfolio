@@ -25,10 +25,21 @@ const ExperienceItem = ({ role, company, duration, descriptions }) => (
 
 const Experience = () => {
     const experiences = [
+        {
+            role: 'AI Solutions Consultant',
+            company: 'Apex Aora Innovations LLC FZ',
+            duration: 'September 2026 - Present',
+            descriptions: [
+                'Designed and developed a multi-agent AI accounting platform using Python and LLMs to automate accounting workflows and intelligent task execution.',
+                'Engineered LLM-powered email automation solutions and RAG pipelines to streamline communication and generate context-aware responses from client-specific documents.',
+                'Analysed client requirements and business processes to identify automation opportunities and architect tailored AI-driven solutions.',
+                'Led client consultations and collaborated with technical teams to translate business requirements into technical specifications, solution demonstrations, and proposals.'
+            ]
+        },
          {
             role: 'IT Operations Executive',
             company: 'AImploy',
-            duration: 'May 2026 - Present',
+            duration: 'May 2026 - August 2026',
             descriptions: [
                 'Wrote technical documentation (user flows, feature specs, system architecture) for a University Admissions Intelligence Platform, turning business requirements into build-ready specs.',
                 'Set up and tested the internal HRMS platform, finding and fixing workflow issues.',
