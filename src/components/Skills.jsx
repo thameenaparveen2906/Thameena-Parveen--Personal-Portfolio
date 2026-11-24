@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks, FaDatabase } from 'react-icons/fa';
+import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks} from 'react-icons/fa';
 import { SiDjango, SiPostgresql, SiSqlite, SiGooglegemini, SiJira, SiOpenai, SiPostman, SiVercel, SiRender, SiNotion } from 'react-icons/si';
 import { TbApi, TbBulb, TbBrandAws, TbBrandVscode } from 'react-icons/tb';
 
