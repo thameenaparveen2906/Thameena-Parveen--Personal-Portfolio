@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks } from 'react-icons/fa';
+import { FaPython, FaReact, FaJs, FaHtml5, FaCss3, FaDatabase, FaRobot, FaServer, FaGitAlt, FaGithub, FaSlack, FaFileAlt, FaBug, FaSyncAlt, FaTasks, FaDatabase } from 'react-icons/fa';
 import { SiDjango, SiPostgresql, SiSqlite, SiGooglegemini, SiJira, SiOpenai, SiPostman, SiVercel, SiRender, SiNotion } from 'react-icons/si';
 import { TbApi, TbBulb, TbBrandAws, TbBrandVscode } from 'react-icons/tb';
 
@@ -30,6 +30,7 @@ const Skills = () => {
         { name: 'OpenAI API', icon: SiOpenai, color: '#412991' },
         { name: 'Google Gemini AI', icon: SiGooglegemini, color: '#8E75B2' },
         { name: 'AI/LLM', icon: FaRobot, color: '#2D5A27' },
+        { name: 'RAG', icon: FaDatabase, color: '#8B5CF6' },
         { name: 'Prompt Engineering', icon: TbBulb, color: '#F5A623' },
         { name: 'Git', icon: FaGitAlt, color: '#F05032' },
         { name: 'GitHub', icon: FaGithub, color: '#181717' },
