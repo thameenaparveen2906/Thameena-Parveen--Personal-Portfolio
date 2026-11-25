@@ -28,7 +28,7 @@ const Experience = () => {
         {
             role: 'AI Solutions Consultant',
             company: 'Apex Aora Innovations LLC FZ',
-            duration: 'September 2026 - Present',
+            duration: 'July 2026 - Present',
             descriptions: [
                 'Designed and developed a multi-agent AI accounting platform using Python and LLMs to automate accounting workflows and intelligent task execution.',
                 'Engineered LLM-powered email automation solutions and RAG pipelines to streamline communication and generate context-aware responses from client-specific documents.',
